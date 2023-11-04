@@ -1,0 +1,166 @@
+body{
+    background-image: linear-gradient(to right, grey,  graytext, grey);
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+
+/* FEJLÉC */
+.fejlec {
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 2px;
+    margin: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 1px 1px 3px black;
+  }
+  .header-center{
+   display: flex;
+   text-align: center;
+   justify-content:center;
+  }
+ .fejlec a {
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.fejlec .navbar-nav .nav-item .nav-link:hover {
+    color: black; /* Hover (egeres interakció) esetén a szín fekete lesz */
+}
+/* Színváltozás a hover interakció során */
+.fejlec .navbar-nav .nav-item .nav-link {
+    color: white; /* Alapértelmezett szín */
+}
+/* Módosított navigációs menüpontok stílusa */
+.fejlec .navbar-nav .nav-item {
+    margin-right: 10px; /* Opcionálisan állítsd be a menüpontok közötti térközt */
+}
+ .fejlec a:hover {
+    background-color: gray;
+  }
+  .fejlec-center a:hover{
+    background-color: gray;
+    color: black;
+  }
+  .fejlec a.active {
+    background-color: gray;
+    color: white;
+  }
+  .fejlec-center{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+  }
+  .fejlec-right{
+    float: right;
+    position: relative;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: -33px;
+}
+  @media screen and (max-width: 500px) {
+    .fejlec a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .fejlec-right {
+      float: none;
+    }
+  }
+  
+  /*RÓLUNK*/
+  .rolunk{
+      text-align: center;
+  }
+  
+  
+  /*BEJELENTKEZÉS*/
+  .login-form-text{
+      color: black;
+  }
+  
+  /*REGISZTRÁCIÓ*/
+  .register-form-text{
+      color: black;
+  }
+  
+/* LÁBLÉC */
+.footer {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: 220px;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.elerhetoseg{
+   list-style: none;
+   display: flex;
+   text-align: center;
+   justify-content:center;
+   box-shadow: 1px 1px 3px black;
+}
+
+.elerhetoseg li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 24px; 
+}
+.elerhetoseg a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.elerhetoseg a:hover i{
+    color: #fff;
+}
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
